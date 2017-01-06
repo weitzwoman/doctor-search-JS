@@ -1,5 +1,5 @@
 $background-form: #b2dfdb;
-$nav-color: #dbb2df;
+$nav-color: #00695c;
 
 #showDoctors {
   display: none;
@@ -30,4 +30,9 @@ nav {
   .nav-wrapper {
     background-color: $nav-color;
   }
+}
+
+body {
+  background-image: url("../../img/blue.jpg");
+  background-size: cover;
 }
