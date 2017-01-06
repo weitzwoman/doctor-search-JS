@@ -7,7 +7,7 @@ function displayDoctors(firstName, lastName, title) {
 }
 
 function displayError(error) {
-  $('#showError').text(error);
+  $('#showError').show();
 }
 
 $(document).ready(function(){
