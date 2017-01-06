@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Doctor Search</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <span class='brand-logo'>Search for Doctors</span>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col l5 search-form">
+          <h4>Local Area Doctor Search:</h4>
+          <div class="input-field">
+            <input id="condition" type="text" class="validate" placeholder="">
+            <label for="condition">Enter Condition:</label>
+          </div>
+          <button class="btn" id="getDoctors">SHOW DOCTORS</button>
+          <button class="btn" id="reset">RESET</button>
+          <div id="error"></div>
+        </div>
+        <div class="col l1"></div>
+        <div class="col l6 doctor-list">
+          <div id="showDoctors">
+          <!-- <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
