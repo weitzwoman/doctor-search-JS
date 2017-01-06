@@ -1,8 +1,3 @@
-specialties:actor ("Endocrinologist")
-specialties:description ("Specializes in diabetes, thyroid and other disorders affected by hormones.")
-practices:name ("Portland Diabetes & Endocrinology Center, PC")
-
-
 # _Doctor Search_
 
 #### _A web application to view doctor names based on medical conditions. JavaScript Week 1 Independent Project for Epicodus 1/6/2017_
