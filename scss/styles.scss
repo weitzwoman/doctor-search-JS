@@ -1,5 +1,5 @@
 $background-form: #b2dfdb;
-$nav-color: #00695c;
+$nav-color: #00bfa5;
 
 #showDoctors {
   display: none;
@@ -35,4 +35,12 @@ nav {
 body {
   background-image: url("../../img/blue.jpg");
   background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+main {
+  flex: 1 0 auto;
 }
