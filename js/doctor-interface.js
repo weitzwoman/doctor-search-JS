@@ -3,7 +3,7 @@ var Doctors = require('./../js/doctor.js').doctorsModule;
 function displayDoctors(firstName, lastName, title) {
   $('#showDoctors').show();
   $('.doctor-list').show();
-  $('#showDoctors tbody').append("<tr><td>" + firstName + "</td><td>" + lastName + "</td><td>" + title + "</td></tr>");
+  $('#showDoctors tbody').append("<tr><td>" + firstName + " " + lastName + "</td><td>" + title + "</td></tr>");
 }
 
 function displayError(error) {
